@@ -25,11 +25,21 @@ namespace mvc_surfboard.Controllers
         public async Task<IActionResult> Index()
         {
             return _context.Surfboard != null ?
-                        View(await _context.Surfboard.ToListAsync()) :
+                        View("Catalog", await _context.Surfboard.ToListAsync()) :
+                        Problem("Entity set 'mvc_surfboardContext.Surfboard'  is null.");
+        }
+
+        // GET: Surfboards
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Table()
+        {
+            return _context.Surfboard != null ?
+                        View("Table", await _context.Surfboard.ToListAsync()) :
                         Problem("Entity set 'mvc_surfboardContext.Surfboard'  is null.");
         }
 
         // GET: Surfboards/Details/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Surfboard == null)
@@ -47,6 +57,7 @@ namespace mvc_surfboard.Controllers
             return View(surfboard);
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Surfboards/Create
         public IActionResult Create()
         {
@@ -58,6 +69,7 @@ namespace mvc_surfboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("Id,Name,Length,Width,Thickness,Volume,Type,Price,Equipment,ImgUrl")] Surfboard surfboard)
         {
             if (ModelState.IsValid)
@@ -70,6 +82,7 @@ namespace mvc_surfboard.Controllers
         }
 
         // GET: Surfboards/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Surfboard == null)
@@ -90,6 +103,7 @@ namespace mvc_surfboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Length,Width,Thickness,Volume,Type,Price,Equipment,ImgUrl")] Surfboard surfboard)
         {
             if (id != surfboard.Id)
@@ -121,6 +135,7 @@ namespace mvc_surfboard.Controllers
         }
 
         // GET: Surfboards/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Surfboard == null)
@@ -141,6 +156,7 @@ namespace mvc_surfboard.Controllers
         // POST: Surfboards/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Surfboard == null)

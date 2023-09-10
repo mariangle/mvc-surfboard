@@ -29,9 +29,9 @@ namespace mvc_surfboard.Models
 
         // foreign key attributes specify navigation properties
         [ForeignKey("UserId")]
-        public ApplicationUser User { get; set; }
+        public ApplicationUser? User { get; set; }
         [ForeignKey("SurfboardId")]
-        public Surfboard Surfboard { get; set; } 
+        public Surfboard? Surfboard { get; set; } 
 
     }
 }

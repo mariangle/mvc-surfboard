@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using mvc_surfboard.Models;
 
 namespace mvc_surfboard.Controllers
 {
+    [Authorize]
     public class RentalsController : Controller
     {
         private readonly mvc_surfboardContext _context;
@@ -67,13 +69,11 @@ namespace mvc_surfboard.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SurfboardId"] = new SelectList(_context.Surfboard, "Id", "Name", rental.SurfboardId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", rental.UserId);
             return View(rental);
         }
 
         // GET: Rentals/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task   <IActionResult> Edit(int? id)
         {
             if (id == null || _context.Rental == null)
             {

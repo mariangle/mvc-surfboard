@@ -27,6 +27,6 @@ namespace mvc_surfboard.Models
         [Display(Name = "Image")]
         public string? ImgUrl { get; set; }
         // public bool isAvalaible {  get; set; }
-        public ICollection<Rental> Rentals { get; set; }
+        public ICollection<Rental>? Rentals { get; set; }
     }
 }
