@@ -31,7 +31,7 @@
                             Price: DKK @item.Price<br />
                             Equipment: @item.Equipment<br />
                         </p>
-                        <a href="@Url.Action("Rent", "Rentals", new { surfboardId = item.Id })" class="btn btn-primary">Rent</a>
+                        <a asp-action="Rent" asp-route-id="@item.Id">Rent</a> |
                     </div>
                 </div>
             </div>

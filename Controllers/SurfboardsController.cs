@@ -38,25 +38,6 @@ namespace mvc_surfboard.Controllers
                         Problem("Entity set 'mvc_surfboardContext.Surfboard'  is null.");
         }
 
-        // GET: Surfboards/Details/5
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Surfboard == null)
-            {
-                return NotFound();
-            }
-
-            var surfboard = await _context.Surfboard
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (surfboard == null)
-            {
-                return NotFound();
-            }
-
-            return View(surfboard);
-        }
-
         [Authorize(Roles = "Admin")]
         // GET: Surfboards/Create
         public IActionResult Create()
@@ -176,6 +157,56 @@ namespace mvc_surfboard.Controllers
         private bool SurfboardExists(int id)
         {
             return (_context.Surfboard?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        // GET: Surfboards/Rent/5
+        public async Task<IActionResult> Rent(int? id)
+        {
+            if (id == null || _context.Surfboard == null)
+            {
+                return NotFound();
+            }
+
+            var surfboard = await _context.Surfboard
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (surfboard == null)
+            {
+                return NotFound();
+            }
+
+            var rental = new Rental(); // You need to populate this with appropriate data
+
+            var viewModel = new SurfboardRentalViewModel
+            {
+                Surfboard = surfboard,
+                Rental = rental
+            };
+
+            return View(viewModel);
+        }
+
+
+        // POST: Surfboards/Rent
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Rent(int id, SurfboardRentalViewModel viewModel)
+        {
+
+            if (ModelState.IsValid)
+            {
+                viewModel.Rental.UserId = "fabb9505-7014-4305-9d88-6988b4774ad2";
+                viewModel.Rental.SurfboardId = id;
+                viewModel.Rental.TotalCost = 99;
+
+                _context.Add(viewModel.Rental);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+           var errors = ModelState.Values.SelectMany(v => v.Errors); // see errors
+
+            return View(viewModel);
         }
     }
 }
