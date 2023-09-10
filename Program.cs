@@ -9,6 +9,7 @@ builder.Services.AddDbContext<mvc_surfboardContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("mvc_surfboardContext") ?? throw new InvalidOperationException("Connection string 'mvc_surfboardContext' not found.")));
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>() // Add support for roles
     .AddEntityFrameworkStores<mvc_surfboardContext>();
 
 // Add services to the container.
@@ -20,7 +21,22 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
 
-    SeedData.Initialize(services);
+    // create roles
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+
+    // check if role exists and if they dont create them
+    if (!roleManager.RoleExistsAsync("User").Result)
+    {
+        roleManager.CreateAsync(new IdentityRole("User")).Wait();
+    }
+
+    if (!roleManager.RoleExistsAsync("Admin").Result)
+    {
+        roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
+    }
+
+    // SeedData.Initialize(services); 
 }
 
 // Configure the HTTP request pipeline.

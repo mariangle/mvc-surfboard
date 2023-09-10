@@ -16,5 +16,7 @@ namespace mvc_surfboard.Data
         }
 
         public DbSet<mvc_surfboard.Models.Surfboard> Surfboard { get; set; } = default!;
+
+        public DbSet<mvc_surfboard.Models.Rental>? Rental { get; set; }
     }
 }   

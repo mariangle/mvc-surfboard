@@ -232,6 +232,39 @@ namespace mvc_surfboard.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("mvc_surfboard.Models.Rental", b =>
+                {
+                    b.Property<int>("RentalId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RentalId"));
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("SurfboardId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalCost")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("RentalId");
+
+                    b.HasIndex("SurfboardId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Rental");
+                });
+
             modelBuilder.Entity("mvc_surfboard.Models.Surfboard", b =>
                 {
                     b.Property<int>("Id")
@@ -323,6 +356,35 @@ namespace mvc_surfboard.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("mvc_surfboard.Models.Rental", b =>
+                {
+                    b.HasOne("mvc_surfboard.Models.Surfboard", "Surfboard")
+                        .WithMany("Rentals")
+                        .HasForeignKey("SurfboardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("mvc_surfboard.Models.ApplicationUser", "User")
+                        .WithMany("Rentals")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Surfboard");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("mvc_surfboard.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Rentals");
+                });
+
+            modelBuilder.Entity("mvc_surfboard.Models.Surfboard", b =>
+                {
+                    b.Navigation("Rentals");
                 });
 #pragma warning restore 612, 618
         }
