@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using mvc_surfboard.Data;
 using mvc_surfboard.Models;
@@ -24,18 +25,56 @@ namespace mvc_surfboard.Controllers
         // GET: Surfboards
         public async Task<IActionResult> Index()
         {
-            return _context.Surfboard != null ?
-                        View("Catalog", await _context.Surfboard.ToListAsync()) :
-                        Problem("Entity set 'mvc_surfboardContext.Surfboard'  is null.");
+            var validSurfboards = await _context.Surfboard
+                .Where(surfboard => !surfboard.Rentals.Any())
+                .ToListAsync();
+
+            return View(validSurfboards);
         }
 
         // GET: Surfboards
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Table()
+        public async Task<IActionResult> List(
+            string sortOrder,
+            string searchString,
+            string currentFilter,
+            int? pageNumber
+            )
         {
-            return _context.Surfboard != null ?
-                        View("Table", await _context.Surfboard.ToListAsync()) :
-                        Problem("Entity set 'mvc_surfboardContext.Surfboard'  is null.");
+            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            // ViewData["LengthSortParm"] = sortOrder == "Length" ? "length_desc" : "Length";
+            ViewData["LengthSortParm"] = String.IsNullOrEmpty(sortOrder) ? "length_desc" : "";
+            ViewData["TypeSortParm"] = String.IsNullOrEmpty(sortOrder) ? "type_desc" : "";
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            var boards = from b in _context.Surfboard
+            select b;
+
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    boards = boards.OrderByDescending(s => s.Name);
+                    break;
+                case "length_desc":
+                    boards = boards.OrderBy(s => s.Length);
+                    break;
+                case "type_desc":
+                    boards = boards.OrderByDescending(s => s.Type);
+                    break;
+                default:
+                    break;
+            }
+
+            int pageSize = 5;
+            return View(await PaginatedList<Surfboard>.CreateAsync(boards.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
         [Authorize(Roles = "Admin")]
@@ -50,7 +89,7 @@ namespace mvc_surfboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> Create([Bind("Id,Name,Length,Width,Thickness,Volume,Type,Price,Equipment,ImgUrl")] Surfboard surfboard)
         {
             if (ModelState.IsValid)
@@ -196,15 +235,11 @@ namespace mvc_surfboard.Controllers
 
             if (ModelState.IsValid)
             {
-                viewModel.Rental.UserId = "fabb9505-7014-4305-9d88-6988b4774ad2";
-                viewModel.Rental.SurfboardId = id;
-                viewModel.Rental.TotalCost = 99;
-
+                // some logic to calculate price based off date period
                 _context.Add(viewModel.Rental);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-           var errors = ModelState.Values.SelectMany(v => v.Errors); // see errors
 
             return View(viewModel);
         }
