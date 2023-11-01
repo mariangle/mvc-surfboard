@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using mvc_surfboard.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<mvc_surfboardContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("mvc_surfboardContext") ?? throw new InvalidOperationException("Connection string 'mvc_surfboardContext' not found.")));
 
 // Add services to the container.
 

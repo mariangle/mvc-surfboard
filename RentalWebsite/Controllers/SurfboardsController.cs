@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.Data;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
-using System.Web.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 using mvc_surfboard.Data;
 using mvc_surfboard.Models;
-using mvc_surfboard.Utility;
 
 namespace mvc_surfboard.Controllers
 {
@@ -21,9 +12,9 @@ namespace mvc_surfboard.Controllers
     {
         private readonly mvc_surfboardContext _context;
         private readonly HttpClient _httpClient;
-        private readonly ApiService _apiService;
+        private readonly WebApiService _apiService;
 
-        public SurfboardsController(mvc_surfboardContext context, HttpClient httpClient, ApiService apiService)
+        public SurfboardsController(mvc_surfboardContext context, HttpClient httpClient, WebApiService apiService)
         {
             _context = context;
             _httpClient = httpClient;
@@ -34,23 +25,23 @@ namespace mvc_surfboard.Controllers
         // GET: Surfboards
         public async Task<IActionResult> Index()
         {
-            //var surfboards = _apiService.UseApiService();
+            var surfboards = await _apiService.GetSurfboardsAsync();
 
-            //return View(surfboards);
+            return View(surfboards);
 
-            var validSurfboards = await _context.Surfboard
-                .Where(surfboard => !surfboard.Rentals.Any())
-                .ToListAsync();
+            //var validSurfboards = await _context.Surfboard
+            //    .Where(surfboard => !surfboard.Rentals.Any())
+            //    .ToListAsync();
 
-            if (User == null)
-            {
-                var newValidSurfboards = validSurfboards.Where((surfboard) => surfboard.Price <= 200);
-                return View(newValidSurfboards.ToList());
-            }
-            else
-            {
-                return View(validSurfboards);
-            }
+            //if (User == null)
+            //{
+            //    var newValidSurfboards = validSurfboards.Where((surfboard) => surfboard.Price <= 200);
+            //    return View(newValidSurfboards.ToList());
+            //}
+            //else
+            //{
+            //    return View(validSurfboards);
+            //}
 
         }
         #endregion
