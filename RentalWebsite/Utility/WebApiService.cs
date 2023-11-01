@@ -1,4 +1,5 @@
 ﻿using mvc_surfboard.Models;
+using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Text.Json;
@@ -11,7 +12,7 @@ public class WebApiService
     public WebApiService(HttpClient httpClient)
     {
         _httpClient = httpClient;
-        _httpClient.BaseAddress = new Uri("https://localhost:7165/"); // Set your Web API base address herea
+        _httpClient.BaseAddress = new Uri("https://localhost:7165/"); 
     }
 
     public async Task<List<Surfboard>> GetSurfboardsAsync()
@@ -19,9 +20,8 @@ public class WebApiService
         HttpResponseMessage response = await _httpClient.GetAsync("api/surfboards");
         response.EnsureSuccessStatusCode();
 
-        string surfboardJson = await response.Content.ReadAsStringAsync();
-        List<Surfboard> surfboards = JsonSerializer.Deserialize<List<Surfboard>>(surfboardJson);
-
+        var jsonResponse = await response.Content.ReadAsStringAsync();
+        var surfboards = JsonConvert.DeserializeObject<List<Surfboard>>(jsonResponse);
         return surfboards;
     }
     public async Task<List<Rental>> GetRentalsAsync()
@@ -29,8 +29,8 @@ public class WebApiService
         HttpResponseMessage response = await _httpClient.GetAsync("api/rentals");
         response.EnsureSuccessStatusCode();
 
-        string rentalJson = await response.Content.ReadAsStringAsync();
-        List<Rental> rentals = JsonSerializer.Deserialize<List<Rental>>(rentalJson);
+        var jsonResponse = await response.Content.ReadAsStringAsync();
+        var rentals = JsonConvert.DeserializeObject<List<Rental>>(jsonResponse);
 
         return rentals;
     }

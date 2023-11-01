@@ -43,11 +43,20 @@ using (var scope = app.Services.CreateScope())
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
 
+    if (!roleManager.RoleExistsAsync("Admin").Result)
+    {
+        roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
+    }
 
-    //if (!roleManager.RoleExistsAsync("Guest").Result)
-    //{
-    //    roleManager.CreateAsync(new IdentityRole("Guest")).Wait();
-    //}
+    if (!roleManager.RoleExistsAsync("User").Result)
+    {
+        roleManager.CreateAsync(new IdentityRole("User")).Wait();
+    }
+
+    if (!roleManager.RoleExistsAsync("Guest").Result)
+    {
+        roleManager.CreateAsync(new IdentityRole("Guest")).Wait();
+    }
 
     SeedData.Initialize(services); 
 }

@@ -26,7 +26,8 @@ namespace mvc_surfboard.Models
         public string Type { get; set; }
         [Required]
         [Column(TypeName = "decimal(18, 2)")]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
+
         [Display(Name = "Udstyr")]
         public string? Equipment { get; set; }
         [Display(Name = "Billede")]
