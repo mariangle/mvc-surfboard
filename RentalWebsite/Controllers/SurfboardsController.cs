@@ -25,23 +25,18 @@ namespace mvc_surfboard.Controllers
         // GET: Surfboards
         public async Task<IActionResult> Index()
         {
-            var surfboards = await _apiService.GetSurfboardsAsync();
+            if (User == null)
+            {
+                var surfboards = await _apiService.GetSurfboardsAsync();
 
-            return View(surfboards);
+                return View(surfboards);
+            }
+            else
+            {
+                var surfboards = await _apiService.GetSurfboardsAsync();
 
-            //var validSurfboards = await _context.Surfboard
-            //    .Where(surfboard => !surfboard.Rentals.Any())
-            //    .ToListAsync();
-
-            //if (User == null)
-            //{
-            //    var newValidSurfboards = validSurfboards.Where((surfboard) => surfboard.Price <= 200);
-            //    return View(newValidSurfboards.ToList());
-            //}
-            //else
-            //{
-            //    return View(validSurfboards);
-            //}
+                return View(surfboards);
+            }
 
         }
         #endregion

@@ -20,8 +20,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<WebApiService>();
 builder.Services.AddScoped<WebApiService>();
 
-//builder.Services.AddHttpClient<IHttpClientFactory>();
-
 var app = builder.Build();
 
 var supportedCultures = new[]

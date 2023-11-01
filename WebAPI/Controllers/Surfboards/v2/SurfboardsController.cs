@@ -3,10 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using mvc_surfboard.Data;
 using mvc_surfboard.Models;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.Surfboards.v2
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("2.0")]
     public class SurfboardsController : ControllerBase
     {
         private readonly mvc_surfboardContext _context;
@@ -20,10 +21,11 @@ namespace WebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Surfboard>>> GetSurfboard()
         {
-          if (_context.Surfboard == null)
-          {
-              return NotFound();
-          }
+            if (_context.Surfboard == null)
+            {
+                return NotFound();
+            }
+
             return await _context.Surfboard.ToListAsync();
         }
 

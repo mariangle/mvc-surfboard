@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using mvc_surfboard.Data;
 using mvc_surfboard.Models;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.Rentals
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -25,10 +25,10 @@ namespace WebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Rental>>> GetRental()
         {
-          if (_context.Rental == null)
-          {
-              return NotFound();
-          }
+            if (_context.Rental == null)
+            {
+                return NotFound();
+            }
             return await _context.Rental.ToListAsync();
         }
 
@@ -36,10 +36,10 @@ namespace WebAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Rental>> GetRental(int id)
         {
-          if (_context.Rental == null)
-          {
-              return NotFound();
-          }
+            if (_context.Rental == null)
+            {
+                return NotFound();
+            }
             var rental = await _context.Rental.FindAsync(id);
 
             if (rental == null)
@@ -86,10 +86,10 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Rental>> PostRental(Rental rental)
         {
-          if (_context.Rental == null)
-          {
-              return Problem("Entity set 'mvc_surfboardContext.Rental'  is null.");
-          }
+            if (_context.Rental == null)
+            {
+                return Problem("Entity set 'mvc_surfboardContext.Rental'  is null.");
+            }
             _context.Rental.Add(rental);
             await _context.SaveChangesAsync();
 

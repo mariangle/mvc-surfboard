@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vXy3/yIis03/C/w2ckhgNy2hF3wCassMwVXfFSEsarkR5pyaIO/M99yyuGzu8JGVmbFNYywDWUozHlX+DtIYeg==",
+  "dgSpecHash": "p4IHOg3RJ4fm6X7oydauTFOQqpl5Pgm2bk9zpUmNK2cZiBi3Jf1u1Wx1EfEZD4ZnzUeWGHvEjOAWmBBtVfTdyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,8 @@
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.21\\microsoft.aspnetcore.cryptography.keyderivation.6.0.21.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.21\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.21.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.21\\microsoft.aspnetcore.identity.ui.6.0.21.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
