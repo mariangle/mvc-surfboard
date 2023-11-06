@@ -12,6 +12,7 @@ namespace WebAPI.Controllers.Rentals
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class RentalsController : ControllerBase
     {
         private readonly mvc_surfboardContext _context;
