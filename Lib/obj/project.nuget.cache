@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XlTZF2somdYajZP2m5qaBByjUQPEhUupaFWUmkOJJwRIsg/klOS9Wlw4SxXE1/tQt9pdxzSqemAdqlXEMo7pEQ==",
+  "dgSpecHash": "w4j6TvKz8FcvdsspwG4i0Vu2KVaifJQC2qRKT8D4W7q0EUjZV8LTDxzpmfPLqlV0FMwRZ3TakVJa1Yuh980J2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruger\\Documents\\Code\\Projekter\\Lib\\Lib.csproj",
+  "projectFilePath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Lib\\Lib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruger\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
     "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",

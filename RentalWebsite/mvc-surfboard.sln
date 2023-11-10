@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "..\WebAPI\WebAPI.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshop", "..\Webshop\Web\MyBlazorShop.Web.BlazorWasm\Webshop.csproj", "{BFA2D798-362F-43C3-9AE3-343245401C18}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib", "..\..\..\..\Projekter\Lib\Lib.csproj", "{CEF1BC4B-3E1F-4EF4-A3E0-842F7AB7FC45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib", "..\Lib\Lib.csproj", "{4F296943-2496-4287-A2DC-1850DBADF657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{BFA2D798-362F-43C3-9AE3-343245401C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA2D798-362F-43C3-9AE3-343245401C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFA2D798-362F-43C3-9AE3-343245401C18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CEF1BC4B-3E1F-4EF4-A3E0-842F7AB7FC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEF1BC4B-3E1F-4EF4-A3E0-842F7AB7FC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEF1BC4B-3E1F-4EF4-A3E0-842F7AB7FC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEF1BC4B-3E1F-4EF4-A3E0-842F7AB7FC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F296943-2496-4287-A2DC-1850DBADF657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F296943-2496-4287-A2DC-1850DBADF657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F296943-2496-4287-A2DC-1850DBADF657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F296943-2496-4287-A2DC-1850DBADF657}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
