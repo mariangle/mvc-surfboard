@@ -1,0 +1,12 @@
+C:\Users\Bruger\Documents\Code\Projekter\Lib\bin\Debug\net6.0\Lib.deps.json
+C:\Users\Bruger\Documents\Code\Projekter\Lib\bin\Debug\net6.0\Lib.dll
+C:\Users\Bruger\Documents\Code\Projekter\Lib\bin\Debug\net6.0\Lib.pdb
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.csproj.AssemblyReference.cache
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.AssemblyInfoInputs.cache
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.AssemblyInfo.cs
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.dll
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\refint\Lib.dll
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\Lib.pdb
+C:\Users\Bruger\Documents\Code\Projekter\Lib\obj\Debug\net6.0\ref\Lib.dll
