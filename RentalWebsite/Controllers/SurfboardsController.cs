@@ -25,19 +25,16 @@ namespace mvc_surfboard.Controllers
         // GET: Surfboards
         public async Task<IActionResult> Index()
         {
-            if (User == null)
+            if (User.Identity != null && User.Identity.IsAuthenticated)
             {
-                var surfboards = await _apiService.GetSurfboardsAsync();
-
+                var surfboards = await _apiService.GetSurfboardsAsync("2.0");
                 return View(surfboards);
             }
             else
             {
-                var surfboards = await _apiService.GetSurfboardsAsync();
-
+                var surfboards = await _apiService.GetSurfboardsAsync("1.0");
                 return View(surfboards);
             }
-
         }
         #endregion
 
@@ -66,7 +63,7 @@ namespace mvc_surfboard.Controllers
             }
 
             var boards = from b in _context.Surfboard
-            select b;
+                         select b;
 
             switch (sortOrder)
             {
@@ -101,7 +98,7 @@ namespace mvc_surfboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")] 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("Id,Name,Length,Width,Thickness,Volume,Type,Price,Equipment,ImgUrl,RowVersion")] Surfboard surfboard)
         {
             if (ModelState.IsValid)
@@ -370,7 +367,7 @@ namespace mvc_surfboard.Controllers
                 return NotFound();
             }
 
-            var rental = new Rental(); 
+            var rental = new Rental();
 
             var viewModel = new SurfboardRentalViewModel
             {
@@ -395,7 +392,7 @@ namespace mvc_surfboard.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Rent(int id, SurfboardRentalViewModel viewModel)
+        public async Task<IActionResult> Rent(int id, SurfboardRentalViewModel vm)
         {
             if (ModelState.IsValid)
             {
@@ -404,22 +401,44 @@ namespace mvc_surfboard.Controllers
 
                 if (!rentalExists)
                 {
-                    var guestExists = await _context.Guest.FirstOrDefaultAsync(guest => guest.Email == viewModel.Rental.GuestEmail);
 
-                    if (guestExists == null)
+                    if (User.Identity != null && User.Identity.IsAuthenticated)
                     {
-
-                        Rental postedRental = await _apiService.PostSurfboardAsync(viewModel.Rental);
-
+                        Rental rental = await _apiService.PostSurfboardAsync(vm.Rental);
                         return RedirectToAction(nameof(Index));
                     }
                     else
                     {
-                        Rental ren = viewModel.Rental;
-                        ren.Guest = null;
+                        var existingGuest = await _context.Guest.FirstOrDefaultAsync(guest => guest.Email == vm.Rental.GuestEmail);
+                        int MaxAllowedGuestRentals = 1;
 
-                        _context.Add(ren);
-                        await _context.SaveChangesAsync();
+                        if (existingGuest != null)
+                        {
+                            var guestRentalsCount = await _context.Rental
+                                .Where(r => r.GuestEmail == vm.Rental.GuestEmail)
+                                .CountAsync();
+
+                            if (guestRentalsCount < MaxAllowedGuestRentals)
+                            {
+                                vm.Rental.GuestEmail = existingGuest.Email;
+                                await _apiService.PostSurfboardAsync(vm.Rental);
+                            } else
+                            {
+                                // display error message
+                            }
+                        }
+                        else
+                        {
+                            var newGuest = new Guest { Email = vm.Rental.GuestEmail };
+                            var createdGuest = _context.Add(newGuest).Entity;
+                            await _context.SaveChangesAsync();
+
+                            vm.Rental.GuestEmail = createdGuest.Email;
+
+                            await _apiService.PostSurfboardAsync(vm.Rental);
+
+                        }
+
                         return RedirectToAction(nameof(Index));
                     }
                 }
@@ -429,7 +448,7 @@ namespace mvc_surfboard.Controllers
                 }
 
             }
-            return View(viewModel);
+            return View(vm);
         }
         #endregion
     }
