@@ -370,7 +370,7 @@ namespace mvc_surfboard.Controllers
                 return NotFound();
             }
 
-            var rental = new Rental(); // You need to populate this with appropriate data
+            var rental = new Rental(); 
 
             var viewModel = new SurfboardRentalViewModel
             {
@@ -379,11 +379,13 @@ namespace mvc_surfboard.Controllers
             };
 
             bool rentalExists = await _context.Rental.AnyAsync(rental => rental.SurfboardId == id);
+
             if (!rentalExists)
             {
                 return View(viewModel);
 
             }
+
             return RedirectToAction("Index");
         }
 
@@ -406,9 +408,8 @@ namespace mvc_surfboard.Controllers
 
                     if (guestExists == null)
                     {
-                        _context.Add(viewModel.Rental);
 
-                        await _context.SaveChangesAsync();
+                        Rental postedRental = await _apiService.PostSurfboardAsync(viewModel.Rental);
 
                         return RedirectToAction(nameof(Index));
                     }
