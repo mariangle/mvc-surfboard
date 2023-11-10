@@ -2128,3 +2128,7 @@ C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.Blazo
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\refint\Webshop.dll
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\Webshop.pdb
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\ref\Webshop.dll
+C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\xEoyAcnP.gz

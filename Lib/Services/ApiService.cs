@@ -1,4 +1,4 @@
-﻿using mvc_surfboard.Models;
+﻿using Lib.Models;
 using Newtonsoft.Json;
 using System.Text;
 
@@ -9,7 +9,7 @@ public class WebApiService
     public WebApiService(HttpClient httpClient)
     {
         _httpClient = httpClient;
-        _httpClient.BaseAddress = new Uri("https://localhost:7165/"); 
+        _httpClient.BaseAddress = new Uri("https://localhost:7165/");
     }
 
     public async Task<List<Surfboard>> GetSurfboardsAsync(string? apiVersion = null)
@@ -42,17 +42,6 @@ public class WebApiService
 
         return surfboard;
     }
-
-    //public async Task<List<Rental>> GetRentalsAsync()
-    //{
-    //    HttpResponseMessage response = await _httpClient.GetAsync("api/rentals");
-    //    response.EnsureSuccessStatusCode();
-
-    //    var jsonResponse = await response.Content.ReadAsStringAsync();
-    //    var rentals = JsonConvert.DeserializeObject<List<Rental>>(jsonResponse);
-
-    //    return rentals;
-    //}
 
     public async Task<Rental> PostSurfboardAsync(Rental rental)
     {

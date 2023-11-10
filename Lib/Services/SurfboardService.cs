@@ -8,14 +8,16 @@ namespace Lib.Services
         /// A private reference to the storage service from the DI container.
         /// </summary>
         private readonly IStorageService _storageService;
+        private readonly WebApiService _apiService;
 
         /// <summary>
         /// Constructs a product service.
         /// </summary>
         /// <param name="storageService">A reference to the storage service from the DI container.</param>
-        public SurfboardService(IStorageService storageService)
+        public SurfboardService(IStorageService storageService, WebApiService apiService)
         {
             _storageService = storageService;
+            _apiService = apiService;
         }
 
         /// <summary>
@@ -23,9 +25,9 @@ namespace Lib.Services
         /// </summary>
         /// <param name="sku">The unique sku reference.</param>
         /// <returns>A <see cref="ProductModel"/> type.</returns>
-        public Surfboard? GetById(int id)
+        public async Task<Surfboard?> GetByIdAsync(int id)
         {
-            return _storageService.Surfboards.FirstOrDefault(p => p.Id == id);
+            return await _apiService.GetSurfboardByIdAsync(id);
         }
 
         /// <summary>
@@ -37,9 +39,14 @@ namespace Lib.Services
             return _storageService.Surfboards.ToList();
         }
 
+        public async Task<IList<Surfboard>> GetAllAsync()
+        {
+            return await _apiService.GetSurfboardsAsync("2.0");
+        }
+
         public Surfboard? Get(int id)
         {
-            throw new NotImplementedException();
+            return _storageService.Surfboards.FirstOrDefault(p => p.Id == id);
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "suROED+Rk8Ph/2x1FaE4pF2pnaRFFXQcuzL9pEq5TvHegwJzvYpovfeIE6ENNRMAtV5fC6/2NoQTrZya+t8HBw==",
+  "dgSpecHash": "914s7BD1Q82ZY+mq4ljr+f69Z4pHoQoOXX3KMaBhy2RxHzBzlmToAhbgqrrQN20I0eDVPAXc5GdOSn6vmZ7SHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\Webshop.csproj",
   "expectedPackageFiles": [
@@ -82,6 +82,7 @@
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

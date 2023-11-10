@@ -34,9 +34,17 @@
     public IList<Surfboard> Products { get; set; }
 }
 @functions {
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Products = productService.GetAll();
-        base.OnInitialized();
+        Products = await productService.GetAllAsync();
+
+        await base.OnInitializedAsync();
     }
+
+    // protected override void OnInitialized()
+    // {
+    //     Products = productService.GetAll();
+
+    //     base.OnInitialized();
+    // }
 }

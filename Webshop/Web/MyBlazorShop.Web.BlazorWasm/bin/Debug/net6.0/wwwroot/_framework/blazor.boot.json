@@ -78,6 +78,7 @@
       "Microsoft.SqlServer.Server.dll": "sha256-qdyhtCvIdflmt4ssCIDmK4OPDtZWcWbX8fB65LduxL8=",
       "Microsoft.Win32.SystemEvents.dll": "sha256-yklb9shrfwktYkkoEBmFqUFTLRSdzYrP6hcPilO+iFA=",
       "Mono.TextTemplating.dll": "sha256-57img5VLX+wAnl9OVpb+sxtMXVadVaRjPPWtsObQbOw=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.CodeDom.dll": "sha256-Wux4xpM0\/BzRySb0qchXJg3S4D\/xc56W3vHWgpa4a4s=",
       "System.Configuration.ConfigurationManager.dll": "sha256-0nS91x919QBfyuwCiSH3HYnLbWIgItdNLgeJejodFBo=",
       "System.Drawing.Common.dll": "sha256-mNB+ax59NkGoYIo2Cz3Cc\/6KD3iSa24eX2eaegdNSR8=",
@@ -256,15 +257,15 @@
       "mscorlib.dll": "sha256-jzikATOUXZ4ADvFQ16S0KGAR1MWeQw31aXXccUFs08w=",
       "netstandard.dll": "sha256-87jtKWKXMg3nXj8D1mLQabI+cTWOPvy5ll3sBYj\/ZhI=",
       "System.Private.CoreLib.dll": "sha256-gjd6M5pA\/nOZEI8pvs9SPUAFG1Jppwr9Xl6v7Wab8Fc=",
-      "Lib.dll": "sha256-qnGZqJ4I4D4H9S1K35mXk94TMsUfGhoa7enjikcOcHA=",
-      "Webshop.dll": "sha256-b+s1FYIiyP3YGVOfkiDiODlVm0ciSHWzZYzMO46JZfo="
+      "Lib.dll": "sha256-lBwz\/z3YGP58RCDiUE9HZtIOtYmyJo5Zf62MCs0ijhU=",
+      "Webshop.dll": "sha256-pLLpns14hGQkNrHZW8G2Dd+sCd9KwTTByH2oOGmtmHQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Lib.pdb": "sha256-NVQpkKpC\/yiMYB9brhKQi1+19FHt82JYdGk36yaE3io=",
-      "Webshop.pdb": "sha256-c\/xB3lAmtiXaFGVaxwbQ8T+yMfkhQrGBNhYANv9DubM="
+      "Lib.pdb": "sha256-niTvyIMxN0oCwMK5ERmq\/PjKZUTf\/6snOjgq0rpM09c=",
+      "Webshop.pdb": "sha256-EqLzYfDaMq0lY7IGc64dfpkC8ZLX3C0qwoM58Kt+LlQ="
     },
     "runtime": {
       "dotnet.6.0.23.av8ms21deh.js": "sha256-YYG9NE7FnTlr1qMbQzBTzUGZOcLX64xP2Z1+An1jT6U=",

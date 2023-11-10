@@ -21,12 +21,14 @@ namespace Lib.Services
         /// </summary>
         /// <param name="slug">The slug of the product</param>
         /// <returns></returns>
-        Surfboard? GetById(int id);
+        Task<Surfboard?> GetByIdAsync(int id);
 
         /// <summary>
         /// Gets all products
         /// </summary>
         /// <returns>A <see cref="IList<ProductModel>"/> type.</returns>
+        Task<IList<Surfboard>> GetAllAsync();
         IList<Surfboard> GetAll();
+
     }
 }
