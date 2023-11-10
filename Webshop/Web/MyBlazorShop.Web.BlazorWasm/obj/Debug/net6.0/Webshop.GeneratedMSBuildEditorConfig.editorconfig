@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Webshop
 build_property.RootNamespace = Webshop
-build_property.ProjectDir = C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\
+build_property.ProjectDir = C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm
+build_property.MSBuildProjectDirectory = C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/App.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Pages/ProductDetails.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Pages/ProductListing.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Pages/ProductListing.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3RpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Pages/ShoppingCart.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Pages/ShoppingCart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Hero.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/Footer.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dFxGb290ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/Header.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dFxIZWFkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/MainLayout.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dFxNYWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/NavMenu.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dFxOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/NotFoundLayout.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/Layout/NotFoundLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dFxOb3RGb3VuZExheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/ProductListingItem.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/ProductListingItem.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RMaXN0aW5nSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/ShoppingCartItem.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/Shared/ShoppingCartItem.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3BwaW5nQ2FydEl0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bruger/Documents/Code/GitHub/WeatherAPI/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/_Imports.razor]
+[C:/Users/maria/Documents/GitHub/mvc-surfboard/Webshop/Web/MyBlazorShop.Web.BlazorWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
