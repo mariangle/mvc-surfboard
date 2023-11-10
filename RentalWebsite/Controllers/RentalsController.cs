@@ -37,7 +37,6 @@ namespace mvc_surfboard.Controllers
             }
             else
             {
-                // if user isnt admin only return rentals the user has rented
                 var user = await _userManager.GetUserAsync(User);
                 string currentUserId = user.Id;
                 var mvc_surfboardContext = _context.Rental

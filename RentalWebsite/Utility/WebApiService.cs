@@ -16,15 +16,24 @@ public class WebApiService
         _httpClient.BaseAddress = new Uri("https://localhost:7165/"); 
     }
 
-    public async Task<List<Surfboard>> GetSurfboardsAsync()
+    public async Task<List<Surfboard>> GetSurfboardsAsync(string? apiVersion = null)
     {
-        HttpResponseMessage response = await _httpClient.GetAsync("api/surfboards");
+        string apiUrl = "api/surfboards";
+
+        if (!string.IsNullOrEmpty(apiVersion) && (apiVersion == "1.0" || apiVersion == "2.0"))
+        {
+            apiUrl += $"?api-version={Uri.EscapeDataString(apiVersion)}";
+        }
+
+        HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
         response.EnsureSuccessStatusCode();
 
         var jsonResponse = await response.Content.ReadAsStringAsync();
         var surfboards = JsonConvert.DeserializeObject<List<Surfboard>>(jsonResponse);
+
         return surfboards;
     }
+
     public async Task<List<Rental>> GetRentalsAsync()
     {
         HttpResponseMessage response = await _httpClient.GetAsync("api/rentals");
