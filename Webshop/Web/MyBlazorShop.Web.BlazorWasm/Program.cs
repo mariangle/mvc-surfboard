@@ -11,5 +11,6 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddSingleton<IStorageService, StorageService>();
 builder.Services.AddSingleton<IShoppingCartService, ShoppingCartService>();
 builder.Services.AddTransient<ISurfboardService, SurfboardService>();
+builder.Services.AddScoped<WebApiService>();
 
 await builder.Build().RunAsync();

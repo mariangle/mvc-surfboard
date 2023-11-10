@@ -1,7 +1,7 @@
 ﻿@using Lib.Models;
 @using Lib.Services;
 @using Webshop.Shared.Layout
-@page "/product/{slug}"
+@page "/product/{id}"
 @inject ISurfboardService surfboardService
 @inject IShoppingCartService shoppingCartService
 @if (Surfboard != null)
@@ -67,23 +67,23 @@
     public int? Quantity { get; set; }
 
     [Parameter]
-    public string Slug { get; set; }
+    public string Id { get; set; }
 
     public IList<Surfboard>? AllSurfboards { get; set; }
 }
 @functions {
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        AllSurfboards = surfboardService.GetAll();
+        AllSurfboards = await surfboardService.GetAllAsync();
 
-        base.OnInitialized();
+        await base.OnInitializedAsync();    
     }
 
-    protected override void OnParametersSet()
+    protected override async Task OnParametersSetAsync()
     {
-        if (!string.IsNullOrWhiteSpace(Slug) && int.TryParse(Slug, out int parsedSlug))
+        if (!string.IsNullOrWhiteSpace(Id) && int.TryParse(Id, out int parsedId))
         {
-            Surfboard = surfboardService.GetById(parsedSlug);
+            Surfboard = await surfboardService.GetByIdAsync(2);
         }
     }
 

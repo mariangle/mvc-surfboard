@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VwAd2h8h3ucvoFYbRcA+iubz3tmg66yGKVZPDC+FKXU=",
+  "Hash": "S6mGl3opVRUvE11y34Vz3sO02juRYVgU2BwLzMHxgKc=",
   "Source": "Webshop",
   "BasePath": "/",
   "Mode": "Root",
@@ -1528,6 +1528,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\maria\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.23\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\maria\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -8583,6 +8600,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\xEoyAcnP.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\maria\\Documents\\GitHub\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\XLSNzsae.gz",
