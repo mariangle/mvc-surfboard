@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -33,5 +34,24 @@ public class WebApiService
         var rentals = JsonConvert.DeserializeObject<List<Rental>>(jsonResponse);
 
         return rentals;
+    }
+
+    public async Task<Rental> PostSurfboardAsync(Rental rental)
+    {
+        // Convert the Rental object to JSON
+        var jsonRequest = JsonConvert.SerializeObject(rental);
+        var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
+
+        // Send a POST request to the server
+        HttpResponseMessage response = await _httpClient.PostAsync("api/rentals", content);
+        response.EnsureSuccessStatusCode();
+
+        // Read the response from the server
+        var jsonResponse = await response.Content.ReadAsStringAsync();
+
+        // Deserialize the JSON response to a Rental object
+        var postedRental = JsonConvert.DeserializeObject<Rental>(jsonResponse);
+
+        return postedRental;
     }
 }
