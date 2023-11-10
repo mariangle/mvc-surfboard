@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3MW/WUjpyboK5sZ2uyPJQpDj5kLe9gb6CNwmnWW7IMk=",
+  "Hash": "GvvYYnqCwFy4EfhoYt27XwNMgcofeM7iKwoR2OZmaS0=",
   "Source": "Webshop",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Azure.Core.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Azure.Core.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\azure.core\\1.25.0\\lib\\net5.0\\Azure.Core.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Azure.Identity.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Azure.Identity.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\azure.identity\\1.7.0\\lib\\netstandard2.0\\Azure.Identity.dll"
+    },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Webshop",
@@ -134,6 +168,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\entityframework\\6.1.0\\lib\\net45\\EntityFramework.SqlServer.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Humanizer.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Humanizer.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\humanizer.core\\2.14.1\\lib\\net6.0\\Humanizer.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
@@ -646,6 +697,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.WebUtilities.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\netstandard2.1\\Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -663,6 +731,142 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\Microsoft.CSharp.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Data.SqlClient.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Data.SqlClient.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\lib\\net6.0\\Microsoft.Data.SqlClient.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Design.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Design.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.13\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Design.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\lib\\net6.0\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.13\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Relational.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.SqlServer.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.SqlServer.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.13\\lib\\net6.0\\Microsoft.EntityFrameworkCore.SqlServer.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -677,7 +881,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll",
@@ -762,7 +966,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -779,7 +983,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyModel.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyModel.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -881,7 +1102,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -898,7 +1119,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.ObjectPool.dll",
@@ -932,7 +1153,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -949,7 +1170,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.WebEncoders.dll",
@@ -967,6 +1188,142 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.extensions.webencoders\\2.2.0\\lib\\netstandard2.0\\Microsoft.Extensions.WebEncoders.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Identity.Client.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Identity.Client.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identity.client\\4.47.2\\lib\\netcoreapp2.1\\Microsoft.Identity.Client.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Identity.Client.Extensions.Msal.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Identity.Client.Extensions.Msal.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.19.3\\lib\\netcoreapp2.1\\Microsoft.Identity.Client.Extensions.Msal.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.24.0\\lib\\net6.0\\Microsoft.IdentityModel.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.24.0\\lib\\net6.0\\Microsoft.IdentityModel.JsonWebTokens.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identitymodel.logging\\6.24.0\\lib\\net6.0\\Microsoft.IdentityModel.Logging.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Protocols.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.24.0\\lib\\net6.0\\Microsoft.IdentityModel.Protocols.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.24.0\\lib\\net6.0\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.24.0\\lib\\net6.0\\Microsoft.IdentityModel.Tokens.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -1018,6 +1375,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\lib\\netstandard2.0\\Microsoft.Net.Http.Headers.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.SqlServer.Server.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.SqlServer.Server.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\lib\\netstandard2.0\\Microsoft.SqlServer.Server.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -1088,6 +1462,40 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\Microsoft.Win32.Registry.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.SystemEvents.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Win32.SystemEvents.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\lib\\net6.0\\Microsoft.Win32.SystemEvents.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Mono.TextTemplating.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Mono.TextTemplating.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\mono.texttemplating\\2.2.1\\lib\\netstandard2.0\\Mono.TextTemplating.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\mscorlib.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -1154,6 +1562,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Buffers.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.CodeDom.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.CodeDom.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.codedom\\4.4.0\\lib\\netstandard2.0\\System.CodeDom.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll",
@@ -1341,6 +1766,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.ComponentModel.TypeConverter.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Configuration.ConfigurationManager.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Configuration.ConfigurationManager.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\lib\\net6.0\\System.Configuration.ConfigurationManager.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Configuration.dll",
@@ -1632,6 +2074,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.Common.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Drawing.Common.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.drawing.common\\6.0.0\\lib\\net6.0\\System.Drawing.Common.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -1749,6 +2208,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Globalization.Extensions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\lib\\net6.0\\System.IdentityModel.Tokens.Jwt.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.dll",
@@ -2089,6 +2565,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Linq.Queryable.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Memory.Data.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Memory.Data.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.memory.data\\1.0.2\\lib\\netstandard2.0\\System.Memory.Data.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Memory.dll",
@@ -2788,6 +3281,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Resources.Writer.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Caching.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Runtime.Caching.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.runtime.caching\\6.0.0\\lib\\net6.0\\System.Runtime.Caching.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -3196,6 +3706,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Security.Cryptography.Primitives.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.ProtectedData.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Security.Cryptography.ProtectedData.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\lib\\net6.0\\System.Security.Cryptography.ProtectedData.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -3261,7 +3788,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.security.permissions\\4.5.0\\lib\\netstandard2.0\\System.Security.Permissions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.security.permissions\\6.0.0\\lib\\net6.0\\System.Security.Permissions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Principal.dll",
@@ -3414,7 +3941,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Text.Encodings.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\runtimes\\browser\\lib\\net6.0\\System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll",
@@ -3431,7 +3958,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Text.Json.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.text.json\\7.0.0\\lib\\net6.0\\System.Text.Json.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll",
@@ -3723,6 +4250,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Windows.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Windows.Extensions.dll",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Windows.Extensions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\.nuget\\packages\\system.windows.extensions\\6.0.0\\lib\\net6.0\\System.Windows.Extensions.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.dll",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -3944,6 +4488,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Uri.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+hAS04AX.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Identity.Client.Extensions.Msal.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Identity.Client.Extensions.Msal.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Identity.Client.Extensions.Msal.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+JBLFQa+.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -3976,6 +4537,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+JssQBR4.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+sjDgS4c.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+UNzZ15+.gz",
@@ -4182,6 +4777,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\37rBmI7F.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Security.Permissions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Permissions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Permissions.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\3lK47lgo.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -4250,21 +4862,21 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authentication.Cookies.dll"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\4ZZ+668R.gz",
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\4jybC+JJ.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "RelativePath": "_framework/Microsoft.Data.SqlClient.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Data.SqlClient.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Data.SqlClient.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\53CeL1OA.gz",
@@ -4299,6 +4911,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\5jPi32Ao.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\5JxB4Xgn.gz",
@@ -4403,6 +5032,57 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Numerics.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\718OEWRJ.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Runtime.Caching.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Caching.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Caching.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\72mnV1vn.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Text.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\7a8u9lhO.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Security.Cryptography.ProtectedData.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.ProtectedData.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.ProtectedData.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\7gkAHuQI.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -4437,21 +5117,21 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\8DexW43K.gz",
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\7lq4Cvhg.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/System.Security.Permissions.dll.gz",
+      "RelativePath": "_framework/System.Configuration.ConfigurationManager.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Permissions.dll",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Configuration.ConfigurationManager.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Permissions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Configuration.ConfigurationManager.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\8DtD5hSr.gz",
@@ -4573,6 +5253,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\A5VMp5pq.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\acsjRChM.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -4588,6 +5285,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Claims.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\AeXOBhIr.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Win32.SystemEvents.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.SystemEvents.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.SystemEvents.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\AFsY7LW+.gz",
@@ -4692,23 +5406,6 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.dll"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\ayhz3k28.gz",
-      "SourceId": "Webshop",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\B+jwuZSa.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -4724,6 +5421,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\B0Atgl8w.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\bEfiaZUR.gz",
@@ -4758,23 +5472,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Parallel.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\BGtuJtzO.gz",
-      "SourceId": "Webshop",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\BJ1arQbk.gz",
@@ -5151,6 +5848,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\e6SdfNgP.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\e7ce9lDi.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -5217,6 +5931,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\EhU1LwGI.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Text.Encodings.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\EkKrTp4N.gz",
@@ -5372,6 +6103,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\fbsUBIXL.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyModel.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\fCTm1+iv.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -5525,6 +6273,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\G9xTtZHw.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Azure.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Azure.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Azure.Core.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\GA9p9Qsz.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -5608,6 +6373,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Thread.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\gMGyNN9+.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Drawing.Common.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.Common.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.Common.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\gUvfVYFz.gz",
@@ -5712,21 +6494,38 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.dll"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\iFd654Pa.gz",
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\IdXipnO2.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\iFjhCaKX.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\iipQzNXt.gz",
@@ -5846,6 +6645,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\iZf5oiN8.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Identity.Client.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Identity.Client.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Identity.Client.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\j38xg2e0.gz",
@@ -6001,40 +6817,6 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.dll"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\ko++QHYw.gz",
-      "SourceId": "Webshop",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Text.Encodings.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\kwDreOIp.gz",
-      "SourceId": "Webshop",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\L7UHSuUV.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -6086,6 +6868,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authentication.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\LjrWdzKV.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\LSWVJTu+.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -6103,6 +6902,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Transactions.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\LzIpCmzQ.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Windows.Extensions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Windows.Extensions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Windows.Extensions.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\m2QRV6b4.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -6118,6 +6934,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\mkPsWKc7.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.CodeDom.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.CodeDom.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.CodeDom.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\MNw+6ATY.gz",
@@ -6290,6 +7123,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\nyh0Jj0D.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\oF2xjyd4.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -6322,6 +7172,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\OwwZw5cE.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\OzcadAzn.gz",
@@ -6392,6 +7259,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Console.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\pDbBogGX.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\PRn9LhlU.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -6407,6 +7291,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\pxPV8XwA.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.SqlServer.Server.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.SqlServer.Server.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.SqlServer.Server.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Q+U7Z6Az.gz",
@@ -6441,6 +7342,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.DataProtection.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\QibrFGmp.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Protocols.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\QJYn8paB.gz",
@@ -6577,6 +7495,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\RdZruCpu.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\rexTLU4A.gz",
@@ -6953,6 +7888,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Tools.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\TVPzeBTv.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Design.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Design.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Design.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\uB6rF+4x.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -7038,23 +7990,6 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\USkx+1AK.gz",
-      "SourceId": "Webshop",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\utLjFVF+.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -7123,6 +8058,40 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\UxJeXYXE.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Memory.Data.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Memory.Data.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Memory.Data.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\v0BdP7Rj.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\V45pntJl.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -7140,21 +8109,21 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Extensions.dll"
     },
     {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\vBgRn1uq.gz",
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\va05Sr9c.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/System.Text.Json.dll.gz",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Vi+REm9c.gz",
@@ -7223,6 +8192,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\VumubPSY.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\vxf84xeM.gz",
@@ -7361,6 +8347,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.16.xqeyjmw7nf.js"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\WI0jvASc.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Mono.TextTemplating.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Mono.TextTemplating.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Mono.TextTemplating.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\WiMCUEEI.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -7444,6 +8447,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\XAEq2T4c.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Humanizer.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Humanizer.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Humanizer.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\XOACSL3V.gz",
@@ -7531,6 +8551,57 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Y4+BxKFx.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Y4loW+KT.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Azure.Identity.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Azure.Identity.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Azure.Identity.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\y8E2ZUYg.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.SqlServer.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.SqlServer.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.SqlServer.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\YB+bf0Ss.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -7580,6 +8651,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.Reader.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\yfHs7o3p.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Ylx08Pu+.gz",
@@ -7752,6 +8840,23 @@
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.Writer.dll"
     },
     {
+      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Z8PNunod.gz",
+      "SourceId": "Webshop",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Zm325N8r.gz",
       "SourceId": "Webshop",
       "SourceType": "Computed",
@@ -7767,23 +8872,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Zoi9Zii2.gz",
-      "SourceId": "Webshop",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\zSnbFVi4.gz",
