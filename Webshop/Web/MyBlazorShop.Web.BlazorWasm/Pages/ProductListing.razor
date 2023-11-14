@@ -2,6 +2,7 @@
 @using Lib.Models;
 @using Webshop.Shared.Layout;
 @using Webshop.Shared;
+@using BlazorBootstrap
 
 @page "/"
 @inject ISurfboardService productService
@@ -26,25 +27,41 @@
                     </ul>
                 </div>
             </div>
+            <Pagination 
+                    ActivePageNumber="@currentPageNumber"
+                    TotalPages="10"
+                    PageChanged="OnPageChangedAsync" />
         </div>
     </main>
 }
 
 @code {
     public IList<Surfboard> Products { get; set; }
-}
-@functions {
+    public int ItemsPerPage { get; set; } = 3;
+    int currentPageNumber = 1;
+
+    private async Task OnPageChangedAsync(int newPageNumber)
+    {
+        await LoadPageAsync(newPageNumber);
+    }
+
+    private async Task LoadPageAsync(int pageNumber)
+    {
+        // Calculate the index from which to start displaying items on the current page
+        int startIndex = (pageNumber - 1) * ItemsPerPage;
+
+        // Update the Products list to include only the items for the current page
+        Products = await productService.GetAllAsync(); // Assuming this returns all surfboards
+        Products = Products.Skip(startIndex).Take(ItemsPerPage).ToList();
+
+        // Update the current page number
+        currentPageNumber = pageNumber;
+    }
+
     protected override async Task OnInitializedAsync()
     {
-        Products = await productService.GetAllAsync();
+        await LoadPageAsync(currentPageNumber);
 
         await base.OnInitializedAsync();
     }
-
-    // protected override void OnInitialized()
-    // {
-    //     Products = productService.GetAll();
-
-    //     base.OnInitialized();
-    // }
 }
