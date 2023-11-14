@@ -700,10 +700,6 @@ C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBla
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\lbT0rxcW.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\4Ff9qah7.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\ry14po1F.gz
-C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\RrlEH9ck.gz
-C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\R4pSuSym.gz
-C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\x3F+waWQ.gz
-C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\irHU1ZiE.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\AFsY7LW+.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\QksNEDEi.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\yNgAu2YY.gz
@@ -716,7 +712,6 @@ C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBla
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\MNw+6ATY.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\8ftPwAnP.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\gjhhzJVd.gz
-C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\0mFlLh1Z.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\dHhN4E6j.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\7gkAHuQI.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\r0Di2H86.gz
@@ -729,7 +724,6 @@ C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBla
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\CaiuNPeX.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\scZQFLpg.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\yphjYaZs.gz
-C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\B+jwuZSa.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\vxf84xeM.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\5ac5CSYZ.gz
 C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\uMfy4IJN.gz
@@ -2132,3 +2126,17 @@ C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.Blazo
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\xEoyAcnP.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\BlazorBootstrap.dll
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\BlazorBootstrap.dll.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\BlazorBootstrap.dll
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\9c+0hIQx.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\fFfIHf8j.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\35SEkyZF.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\Ef6ccgn2.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\oYBnUv+y.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\j4LEZpxe.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\w1+AuEpw.gz
+C:\Users\Bruger\Documents\Code\GitHub\WeatherAPI\mvc-surfboard\Webshop\Web\MyBlazorShop.Web.BlazorWasm\obj\Debug\net6.0\build-gz\x+mKtlMn.gz
