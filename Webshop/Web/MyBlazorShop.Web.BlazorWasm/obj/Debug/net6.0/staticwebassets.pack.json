@@ -1,79 +1,83 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\clznJ4Bs.gz",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\vAJ7ghxF.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Webshop.styles.css",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Webshop.styles.css",
       "PackagePath": "staticwebassets\\Webshop.styles.css"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\binaryville.min.css",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\binaryville.min.css",
       "PackagePath": "staticwebassets\\css\\binaryville.min.css"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\bubbles-gumball-apron-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\bubbles-gumball-apron-black.jpg",
       "PackagePath": "staticwebassets\\images\\bubbles-gumball-apron-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\bubbles-gumball-baseballhat-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\bubbles-gumball-baseballhat-black.jpg",
       "PackagePath": "staticwebassets\\images\\bubbles-gumball-baseballhat-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\dolores-compute-baseballhat-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\dolores-compute-baseballhat-black.jpg",
       "PackagePath": "staticwebassets\\images\\dolores-compute-baseballhat-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\dolores-compute-mug-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\dolores-compute-mug-black.jpg",
       "PackagePath": "staticwebassets\\images\\dolores-compute-mug-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\dolores-compute-tshirt-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\dolores-compute-tshirt-black.jpg",
       "PackagePath": "staticwebassets\\images\\dolores-compute-tshirt-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\logo.svg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\product-montage.png",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\product-montage.png",
       "PackagePath": "staticwebassets\\images\\product-montage.png"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\rex-microcontrollers-apron-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\rex-microcontrollers-apron-black.jpg",
       "PackagePath": "staticwebassets\\images\\rex-microcontrollers-apron-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\rex-microcontrollers-baseballhat-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\rex-microcontrollers-baseballhat-black.jpg",
       "PackagePath": "staticwebassets\\images\\rex-microcontrollers-baseballhat-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\rex-microcontrollers-tshirt-black.jpg",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\images\\rex-microcontrollers-tshirt-black.jpg",
       "PackagePath": "staticwebassets\\images\\rex-microcontrollers-tshirt-black.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\index.html",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\js\\ImageZoom.js",
+      "PackagePath": "staticwebassets\\js\\ImageZoom.js"
+    },
+    {
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

@@ -1732,19 +1732,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruger\\.nuget\\packages\\": {}
+    "C:\\Users\\nicla\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Lib\\Lib.csproj",
+      "projectUniqueName": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Lib\\Lib.csproj",
       "projectName": "Lib",
-      "projectPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Lib\\Lib.csproj",
-      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\Lib\\obj\\",
+      "projectPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Lib\\Lib.csproj",
+      "packagesPath": "C:\\Users\\nicla\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicla\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1799,7 +1799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },

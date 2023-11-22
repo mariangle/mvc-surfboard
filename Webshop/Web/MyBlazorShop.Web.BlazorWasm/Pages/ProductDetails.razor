@@ -4,6 +4,8 @@
 @page "/product/{id}"
 @inject ISurfboardService surfboardService
 @inject IShoppingCartService shoppingCartService
+@inject IJSRuntime jsRunTime
+
 @if (Surfboard != null)
 {
     <PageTitle>@Surfboard.Name</PageTitle>
@@ -23,7 +25,8 @@
                 }
                 else {
                     <div class="display:flex flex-direction:column flex-grow:0 flex-shrink:0 margin-bottom:32 padding-horizontal:16 width:100 @@mq-768--width:50">
-                        <img src="images/@Surfboard.ImgUrl" alt="Photo of @Surfboard.Name" class="margin-bottom:32 max-width:100" />
+                        <img id="zoom_img" @onmouseover="ZoomIn" @onmouseout="ZoomOut" src="@Surfboard.ImgUrl" alt="Photo of @Surfboard.Name" class="margin-bottom:32 max-width:100" />
+
                    </div>
                    <div class="display:flex flex-direction:column flex-grow:0 flex-shrink:0 margin-bottom:32 padding-horizontal:16 width:100 @@mq-768--width:50">
                         <h1 class="font-weight:500 font-size:28 line-height:1_142 margin-bottom:24 @@mq-768--font-size:32 @@mq-768--line-height:1_125">@Surfboard.Name</h1>
@@ -72,6 +75,17 @@
     public IList<Surfboard>? AllSurfboards { get; set; }
 }
 @functions {
+
+    public async Task ZoomIn()
+    { 
+        await jsRunTime.InvokeVoidAsync("zoomin"); 
+    }
+
+    public async Task ZoomOut()
+    { 
+        await jsRunTime.InvokeVoidAsync("zoomout"); 
+    }
+
     protected override async Task OnInitializedAsync()
     {
         AllSurfboards = await surfboardService.GetAllAsync();
@@ -83,7 +97,7 @@
     {
         if (!string.IsNullOrWhiteSpace(Id) && int.TryParse(Id, out int parsedId))
         {
-            Surfboard = await surfboardService.GetByIdAsync(2);
+            Surfboard = await surfboardService.GetByIdAsync(Convert.ToInt32(Id));
         }
     }
 

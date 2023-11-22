@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\RentalWebsite\\mvc-surfboard.csproj": {
+    "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\RentalWebsite\\mvc-surfboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\RentalWebsite\\mvc-surfboard.csproj",
+        "projectUniqueName": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\RentalWebsite\\mvc-surfboard.csproj",
         "projectName": "mvc-surfboard",
-        "projectPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\RentalWebsite\\mvc-surfboard.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\RentalWebsite\\obj\\",
+        "projectPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\RentalWebsite\\mvc-surfboard.csproj",
+        "packagesPath": "C:\\Users\\nicla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\RentalWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,21 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\nicla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\RentalWebsite\\mvc-surfboard.csproj": {
-                "projectPath": "C:\\Users\\Bruger\\Documents\\Code\\GitHub\\WeatherAPI\\mvc-surfboard\\RentalWebsite\\mvc-surfboard.csproj"
+              "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\RentalWebsite\\mvc-surfboard.csproj": {
+                "projectPath": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\RentalWebsite\\mvc-surfboard.csproj"
               }
             }
           }
@@ -192,7 +192,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,3 +34,15 @@ C:\Users\maria\Documents\GitHub\mvc-surfboard\Lib\obj\Debug\net6.0\Lib.dll
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Lib\obj\Debug\net6.0\refint\Lib.dll
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Lib\obj\Debug\net6.0\Lib.pdb
 C:\Users\maria\Documents\GitHub\mvc-surfboard\Lib\obj\Debug\net6.0\ref\Lib.dll
+C:\Users\nicla\source\repos\mariangle\third-semester-project\Lib\bin\Debug\net6.0\Lib.deps.json
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\bin\Debug\net6.0\Lib.dll
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\bin\Debug\net6.0\Lib.pdb
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.csproj.AssemblyReference.cache
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.AssemblyInfoInputs.cache
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.AssemblyInfo.cs
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.csproj.CoreCompileInputs.cache
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.dll
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\refint\Lib.dll
+C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\Lib.pdb
+C:\Users\nicla\source\repos\mariangle\third-semester-project\Lib\obj\Debug\net6.0\ref\Lib.dll
