@@ -1,6 +1,8 @@
 {
   "cacheBootResources": true,
-  "config": [ ],
+  "config": [
+    "appsettings.json"
+  ],
   "debugBuild": true,
   "entryAssembly": "Webshop",
   "icuDataMode": 0,
@@ -259,14 +261,14 @@
       "netstandard.dll": "sha256-OUZMjYvE6WNC75Ypitp3ukl0+FlDbSW+OYEIsU7XlgQ=",
       "System.Private.CoreLib.dll": "sha256-uJANsJB4HA9iyaKf1ryCSbtypfL2uQZWxXKIn0Fz5+c=",
       "Lib.dll": "sha256-yruohbBl1n9I0Qw2V9SWvzKU99273iQK+ZFb+CX8Lec=",
-      "Webshop.dll": "sha256-eURXPB5UKiDto66JJ910UtaiVJvZiD0KuDfWY21\/c8E="
+      "Webshop.dll": "sha256-9YsJrdd+mxhftQExszv0v5Zm4us4aEGl\/Y4a3+xcoN8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Lib.pdb": "sha256-6Oo9r9JlhAfl0qDFM602oplikklatUOZpQN6PTNI\/HU=",
-      "Webshop.pdb": "sha256-1tsqDrTuIR+MtDWfwhMjgrNsQox4WEwSsi3sKFhOjsU="
+      "Webshop.pdb": "sha256-LM8nphQJ50S3g0hs6RipRij2PlaoEkqztWZbJbGA8TQ="
     },
     "runtime": {
       "dotnet.6.0.21.uceexbpxwm.js": "sha256-0OV6gibFzyVtG7NXEj8a6vG3u8Cbzv4l9kkEathZjQ8=",

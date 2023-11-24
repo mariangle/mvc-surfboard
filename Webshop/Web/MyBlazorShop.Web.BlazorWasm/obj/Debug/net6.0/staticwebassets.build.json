@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0ck7iSuBT971vNrvXal4dT3sXCqqCQuuIPdNjrr7lro=",
+  "Hash": "womgic/3hX1CuM0DNLDBLnMMG/OS0Bk9g76/2O4axjQ=",
   "Source": "Webshop",
   "BasePath": "/",
   "Mode": "Root",
@@ -9059,6 +9059,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Webshop.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\appsettings.json",
+      "SourceId": "Webshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "appsettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "settings",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\appsettings.json"
     },
     {
       "Identity": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\app.css",

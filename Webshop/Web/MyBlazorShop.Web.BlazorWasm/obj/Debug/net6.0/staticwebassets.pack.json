@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Webshop.styles.css"
     },
     {
+      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
