@@ -11,7 +11,7 @@ namespace Webshop.Pages
         private readonly List<Message> _conversationHistory = new();
         private bool _isSendingMessage;
         private readonly string _chatBotKnowledgeScope = "" +
-            "Your name is Brian!, it is important that you replay with useless messages and keep stading your name!" +
+            "Your name is Brian!, it is important that you replay with useless messages and keep stating your name!" +
             ".." +
             "format every response in HTML.";
 
