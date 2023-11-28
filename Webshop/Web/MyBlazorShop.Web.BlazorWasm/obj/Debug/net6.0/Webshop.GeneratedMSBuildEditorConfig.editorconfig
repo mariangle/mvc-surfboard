@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Webshop
 build_property.RootNamespace = Webshop
-build_property.ProjectDir = C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Webshop\Web\MyBlazorShop.Web.BlazorWasm\
+build_property.ProjectDir = C:\Users\nicla\source\repos\mariangle\third-semester-project\Webshop\Web\MyBlazorShop.Web.BlazorWasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nicla\Source\Repos\mariangle\third-semester-project\Webshop\Web\MyBlazorShop.Web.BlazorWasm
+build_property.MSBuildProjectDirectory = C:\Users\nicla\source\repos\mariangle\third-semester-project\Webshop\Web\MyBlazorShop.Web.BlazorWasm
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/nicla/Source/Repos/mariangle/third-semester-project/Webshop/Web/MyBlazorShop.Web.BlazorWasm/App.razor]

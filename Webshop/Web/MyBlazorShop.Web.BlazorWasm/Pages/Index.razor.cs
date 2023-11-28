@@ -10,10 +10,7 @@ namespace Webshop.Pages
         private string _userQuestion = string.Empty;
         private readonly List<Message> _conversationHistory = new();
         private bool _isSendingMessage;
-        private readonly string _chatBotKnowledgeScope = "" +
-            "Your name is Brian!, it is important that you replay with useless messages and keep stating your name!" +
-            ".." +
-            "format every response in HTML.";
+        private readonly string _chatBotKnowledgeScope = "Your name is Brian! you have PTSD, it is important that you replay with unrelated useless messages and keep stating that your name is Brian!";
 
         protected override Task OnInitializedAsync()
         {

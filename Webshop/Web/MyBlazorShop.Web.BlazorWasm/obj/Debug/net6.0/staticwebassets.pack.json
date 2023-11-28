@@ -5,16 +5,8 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\vAJ7ghxF.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
-    },
-    {
       "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Webshop.styles.css",
       "PackagePath": "staticwebassets\\Webshop.styles.css"
-    },
-    {
-      "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\appsettings.json",
-      "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
       "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\css\\app.css",
@@ -83,6 +75,14 @@
     {
       "Id": "C:\\Users\\nicla\\Source\\Repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "C:\\Users\\nicla\\source\\repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\vAJ7ghxF.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\nicla\\source\\repos\\mariangle\\third-semester-project\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Webshop.Microsoft.AspNetCore.StaticWebAssets.props",

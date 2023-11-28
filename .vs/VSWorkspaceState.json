@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RentalWebsite"
+    "\\RentalWebsite",
+    "\\Webshop",
+    "\\Webshop\\Web",
+    "\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm",
+    "\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\Pages",
+    "\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot",
+    "\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\wwwroot\\js"
   ],
-  "SelectedNode": "\\RentalWebsite\\mvc-surfboard.sln",
+  "SelectedNode": "\\Webshop\\Web\\MyBlazorShop.Web.BlazorWasm\\Pages\\Index.razor.cs",
   "PreviewInSolutionExplorer": false
 }
