@@ -1,36 +1,29 @@
 Krav 1
-
 Kære udvikler, jeg ønsker mig et website, hvor jeg kan opsætte udlejning af mine boards. Jeg har ikke rigtig nogen idé til, hvordan layoutet skal være, men det vigtige er, at alle de vigtige informationer om boardet fremgår, og så nogle af de der røde stjerner kommer på, hvis jeg glemmer at udfylde et felt. Jeg skal selvfølgelig også kunne rette i teksterne, hvis jeg er kommet til at skrive forkert, eller hvis prisen skal ændres. Jeg har ikke lyst til at skulle logge ind, hver gang jeg laver noget, for det er altså kun til administrativt brug, og det er kun mig der kommer til at bruge det, men derfor er det jo alligevel vigtigt, at jeg ikke kan komme til at skrive forkerte ting. Nå ja, så skal jeg selvfølgelig også kunne slette forældede opslag. Og hvis der kunne komme et lille billede af boardet eller gerne flere, så vil det være super.
 
 Krav 2
-
 Kære udvikler
 Efterhånden som jeg har fået flere boards i min samling, kunne jeg godt tænke mig at kunne sortere lidt i dem for et bedre overblik, så de fx kan blive sorteret efter længde eller type. Jeg vil også gerne have, at der kun kommer fem boards frem ad gangen, da jeg bruger en lille skærm, men at man så kan bladre til næste side for at se de næste fem. Og så kunne jeg godt tænke mig at kunne søge efter forskellige kriterier fx alle boards med equipment.
 
 Krav 3
-
 Kære udvikler
 Det bliver vist en travl uge, jeg kunne nemlig godt tænke mig at mit website ændres, så det rent faktisk kan bruges til udlejning, så jeg vil gerne have det opdelt i en sektion for kunder, og en del for mig som administrator. Kunderne skal kunne vælge et board og leje det i en begrænset periode, og i den periode skal boardet blive usynligt for alle andre. Det er vigtigt at to kunder ikke kan komme til at leje samme board samtidig. Desuden har jeg hørt en del om GDPR, så derfor skal brugere jo kunne slettes, men når brugeren slettes, skal alle hans bookinger jo også gerne frigives. Er det noget du kan fixe? Husk du må aldrig slette databasen, for vi er gået live! Men samtidig kunne jeg godt tænke mig, at vi kan rulle tilbage til tidligere udgaver af databasen i tilfælde af problemer.
 
 Krav 4
-
 Kære udvikler
 Jeg har opdaget et kæmpe problem i vores system. Det viser sig, at hvis to brugere lejer samme board på ca. samme tid, så tror de begge to at de har fået boardet, men det er den, der er hurtigst til at gennemføre bookingen, som reelt får boardet. Det går jo ikke, det kan jo være den anden bruger rent faktisk kom først. Så jeg vil gerne have sitet lavet sådan, at den der kommer først til en booking også er den der får boardet, mens den anden får en besked om, at boardet er under udlejning.
 Tilsvarende har jeg også fået ansat en mere til administration af boards, og det er møgirriterende, når han og jeg retter oplysningerne på boardet samtidig, for så går der informationer tabt. Kan du ikke lave det sådan, at man kan få en besked, hvis det viser sig at andre er i gang med at ændre, så man kan vælge om man vil overskrive deres informationer?
 
 Krav 5
-
 Kære udvikler
 Tiderne ændrer sig, og vi bliver hele tiden klogere. Vi skal have udviklet en iphone-app som kan det samme som sitet, men vi har fundet nogle andre til at stå for det. Men de fortæller mig, at vi kan genbruge en hel del af det vi har på websitet, hvis vi laver et såkaldt web-API. Det er noget med at vi så undgår at have ens kode liggende to steder, som skal opdateres hver for sig, så det er bedre at køre igennem det samme system. Jeg kunne godt tænke mig, at du trækker udlejningsdelen ud af vores website, så det bliver til et web-API. Man skal selvfølgelig stadig kunne de samme ting på websitet. iPhone-udviklerne vil også gerne have, at de har mulighed for at teste web-API’et, så det skal på en eller anden måde dokumenteres, og kunne bruges udefra.
 
 Krav 6
-
 Kære udvikler
 Jeg vil gerne belønne mine loyale kunder, og derfor tænker jeg, at der skal være en fordel ved at oprette sig på vores website. Jeg kunne godt tænke mig, at alle der ikke er loggede ind på vores site stadig har mulighed for at leje boards, men at de ikke får den samme liste af boards som de kunder der har oprettet sig på sitet (i første omgang må du selvom, hvordan fordelingen af boards skal være). Desuden skal der være en begrænsning på antallet af lejemål man kan foretage som ikke-indlogget bruger.
 Med andre ord vil jeg gerne have tilføjet muligheden for at systemet vælger mellem en light-udgave af vores api eller den fully-fledged udgave afhængig af, om brugeren er logget ind eller ej. Forskellen skal ligge i, hvilke boards man kan leje, og hvor mange udlejninger man må foretage – er der i øvrigt en anden måde man kan styre antallet af udlejninger på, som ikke bruger API’et? 
 
 Krav 7
-
 Kære udvikler
 Jeg kunne godt tænke mig at udvide forretningen med lidt salg. Jeg har derfor brug for endnu et website som er et salgs-site og ikke et udlejningssite. Jeg har set en gratis webshop udviklet i noget der hedder Blazor (https://github.com/LinkedInLearning/blazor-webassembly-building-your-first-app-3086416/tree/03_09), jeg kunne godt tænke mig, at du tager koden fra den og tilpasser den, så vi kan bruge den til at sælge surfboards igennem. Surfboardene skal være de samme boards som vi ellers lejer ud.
 
@@ -42,6 +35,11 @@ Her er de: https://demos.blazorbootstrap.com/getting-started/blazor-webassembly
 Jeg kunne godt tænke mig, at du tilføjede den component der hedder pagination. Så det ser lidt mere lækkert ud, når man bladrer i boardene.
 Og så vil jeg gerne bruge den component der hedder confirm dialog til at spørge om man er sikker på man vil lægge boardet i kurven.
 Hvis du kan nå at bruge den der hedder modal til detaljevisningen af mine boards kunne det være rigtig lækkert.
+
+Krav 9
+Kære udvikler
+Vores webshop kører strålende, men det kunne være fedt med en chatbot til at besvare almindelige spørgsmål, så som hvor lang tids levering der er, eller hvad fragtprisen er.
+Jeg kunne også godt tænke mig, at man kan bladre mellem forskellige billeder af samme board ved at klikke på billedet.
 
 
 
